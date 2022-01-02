@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css2/login.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body> 
+
+		<main>
+		<div class="overlay">
+			<form>
+	<!--con = Container  for items in the form-->
+				   <div class="con">
+					   <header class="head-form">
+						  <h2>Đăng nhập</h2>
+						  <br/>
+						  <p>Mời bạn nhập tên tài khoản và mật khẩu <br/>để đăng nhập!!</p>
+					   </header>
+					   <br>
+					   
+						<div class="user-box">
+							<input type="text" name="" required="" style="padding-left: 67px;">
+							<label>Tên tài khoản</label>
+						</div>
+					
+						<div class="user-box">
+							<input type="password" name="" required="">
+							<label>Mật khẩu</label>
+						</div>
+					 <br/>
+					 <br/>
+					 
+						<button class="log-in"><a href="index.html">Đăng nhập</a></button>
+					  
+				   </div>
+
+				   <div class="other">
+				   
+					  <button class="btn submits frgt-pass"><a href ="FORGOTPASSWORD.html">Quên mật khẩu</a></button>
+					  <button class="btn submits sign-up"><a href ="SIGNUP.html">Đăng ký</a></button>
+					  
+				   </div>
+
+				</form>
+		</div>
+		<script>
+			// Show/hide password onClick of button using Javascript only
+			// https://stackoverflow.com/questions/31224651/show-hide-password-onclick-of-button-using-javascript-only
+
+			function show() {
+				var p = document.getElementById('pwd');
+				p.setAttribute('type', 'text');
+			}
+
+			function hide() {
+				var p = document.getElementById('pwd');
+				p.setAttribute('type', 'password');
+			}
+
+			var pwShown = 0;
+
+			document.getElementById("eye").addEventListener("click", function () {
+				if (pwShown == 0) {
+					pwShown = 1;
+					show();
+				} else {
+					pwShown = 0;
+					hide();
+				}
+			}, false);
+		</script>
+		
+		</main>
+		
+	</body> 
+</html>

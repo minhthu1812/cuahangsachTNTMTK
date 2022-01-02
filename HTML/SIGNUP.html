@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css2/signup.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body> 
+
+		<main>
+		<div class="overlay">
+			<form>
+	<!--con = Container  for items in the form-->
+				   <div class="con">
+					   <header class="head-form">
+						  <h2>Đăng ký</h2>
+						  <br/>
+						  <p>Mời bạn điền thông tin đầy đủ <br/>để đăng ký tài khoản!!</p>
+					   </header>
+					   <br>
+					   
+						<div class="user-box">
+							<input type="text" name="" required="">
+							<label>Tên tài khoản</label>
+						</div>
+					
+						<div class="user-box">
+							<input type="text" name="" required="">
+							<label for="email">Địa chỉ email</label>
+						</div>
+					
+						<div class="user-box">
+							<input type="password" name="" required="">
+							<label for="psw">Mật khẩu</label>
+						</div>
+						
+						<div class="user-box">
+							<input type="password" name="" required="">
+							<label for="psw-repeat">Nhập lại mật khẩu</label>
+						</div>
+						
+					 <br/>
+					 <br/>
+						<button class="log-in"><a href ="SIGNUP.html">GỬI ĐI</a></button>
+					  
+					  <div class="other">
+					   
+						  <button class="btn submits frgt-pass"><a href ="LOGIN.html">Quay trở lại</a></button>
+						  
+					  </div>
+					  
+				   </div>
+
+				</form>
+		</div>
+		<script>
+			// Show/hide password onClick of button using Javascript only
+			// https://stackoverflow.com/questions/31224651/show-hide-password-onclick-of-button-using-javascript-only
+
+			function show() {
+				var p = document.getElementById('pwd');
+				p.setAttribute('type', 'text');
+			}
+
+			function hide() {
+				var p = document.getElementById('pwd');
+				p.setAttribute('type', 'password');
+			}
+
+			var pwShown = 0;
+
+			document.getElementById("eye").addEventListener("click", function () {
+				if (pwShown == 0) {
+					pwShown = 1;
+					show();
+				} else {
+					pwShown = 0;
+					hide();
+				}
+			}, false);
+		</script>
+		
+		</main>
+		
+	</body> 
+</html>

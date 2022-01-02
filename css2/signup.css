@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+* {
+	font-family: 'Playfair Display';
+	color: #fcfcfc;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	
+	background: url("../Image/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+	background-attachment: fixed;
+	
+	opacity: .95;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+    border-radius: 10px;
+}
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+      margin: 0 auto;
+}
+
+/* the header form form */
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+/* Login title form form */
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #f7f9f8;
+}
+/*  A welcome message or an explanation of the login form */
+header p {letter-spacing: 0.05em;}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* inputs form  */
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+  margin-right: 100px;
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+/* đổi màu chữ thu nhỏ*/
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #f0a51b;
+  font-size: 18px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+.log-in {
+  width: 450px;
+  position: relative;
+  display: inline-block;
+  padding: 18px 100px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 0 20px;
+    background: #600abe;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* Sign up*/
+.submits {
+	background-color: #600abe;
+	color: white;
+    width: auto;
+}
+
+.frgt-pass {background: transparent;}/* định dạng cho nền [Forgot Password] trong suốt*/
+
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}

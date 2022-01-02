@@ -1,0 +1,480 @@
+* {
+    margin:auto;
+    padding:auto;
+	font-family:'Playfair Display';
+}
+body {
+    margin: 0;
+    font-family: 'Playfair Display';
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----PHẦN HEADER--*/
+.logo{
+	width: 99px;
+	margin-left: 150px;
+}
+
+.search-box{
+	min-height:20px;
+	display: flex;
+    padding-top: 18px;
+}
+
+.glyphicon.glyphicon-search{
+	font-size: 33px;
+	margin-right: 5px;
+}
+
+i.glyphicon {
+	font-size:45px;
+	color: black;
+}
+.col-md-6 {
+    margin-top: 18px;
+    width: 50%;
+}
+.right-items{
+	display:flex;
+	justify-content: space-between;
+	padding-top:50px;
+}
+
+i.fa.fa-shopping-cart {
+    color: black;
+    font-size: 58px;
+    margin-top: -25px;
+    margin-left: 139px;
+    margin-right: 14px;
+}
+
+i.fa.fa-user-circle-o {
+    margin-top: -16px;
+    color: black;
+    font-size: 50px;
+    margin-right: -68px;
+}
+i.fa.fa-sign-out {
+    font-size: 60px;
+    color: black;
+    margin-top: -19px;
+    margin-right: 50px;
+}
+
+
+
+/*--BEGIN MAIN--*/
+div.title_1{
+	
+}
+banner.img{
+	width: auto;
+}
+banner1.img{
+	margin-top: 18px;
+}
+.title h1 {
+	text-align: center;
+    font-size: 40px;
+    margin-top: 28px;
+    font-family: monospace;
+}
+/*
+#picture1{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 18px;
+	z-index: 2;
+}
+
+/********************************************************/
+/*--END MAIN--*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--BEGIN FOOTER--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url(https://niemvuilaptrinh.ams3.cdn.digitaloceanspaces.com/tao_footer_cho_website/Aare.svg);
+}
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer .container .noi-dung.about p{
+    color: #999;
+}
+
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+
+
+
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h5 {
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    margin-top: 120px;
+}
+.links h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+.links{
+    position: relative;
+    width: 25%;
+ }
+ .links ul li{
+     list-style: none;
+ }
+ .links ul li a{
+     color: #999;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.links ul li a:hover{
+     color: #fff;
+ }
+
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.links h5 {
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    margin-top: 120px;
+}
+
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: #999;
+}
+
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+
+@media  (max-width: 768px){
+    footer{
+        padding: 40px;
+        
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .noi-dung{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container, .noi-dung.about, .links, .contact{
+        width: 100%;
+    }
+}
+img.logoFahasa{
+	width: 118px;
+}
+img.logoTiki{
+	margin-left: 50px;
+    width: 53px;
+}
+img.logoNXB{
+	margin-left: 50px;
+    width: 105px;
+}
+h3{
+	color: #a3a3a3;
+}
+
+.fa {
+    color: #bba9f2;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*--END FOOTER--*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------*/
+
+.clearfix:after {
+    display:block;
+    clear:both;          
+}
+.wrapper {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+    background:#7523b4;
+}
+ 
+/*----- Phần menu -----*/
+.menu {
+    width:1000px;
+    margin:0px auto;
+    background:#7523b4;
+    height: 50px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#e3f014;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding:15px 40px;
+    display:inline-block;
+    color:white;
+	padding-bottom: 20px;
+	
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:134%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+#products{
+	max-width: 100%;
+	margin : auto;
+	margin-top: 40px;
+	
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 103px;
+}
+
+.item {
+    width: 302px;
+    height: 390px;
+    border: 1px solid #ebe2f0;
+    box-shadow: 1px 2px 4px #ddd;
+    padding: 18px;
+    border-radius: 56px;
+}
+
+.item:hover {
+	border: blueviolet;
+}
+
+img.img-cirle {
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+
+img.img-circle {
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 183px;
+}
+
+div.name{
+	font-family:'Playfair Display';
+	text-align: center;
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+/*************các đồng chí tham gia*****/
+.item-thumb name{
+	
+}
+.img-circle {
+    border-radius: 50%;
+    height: 60px;
+}
